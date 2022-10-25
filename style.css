@@ -27,7 +27,9 @@ body {
 .box span {
   width: 25%;
   height: 100%;
-  background: #fff;
+  background: url(https://images.pexels.com/photos/592753/pexels-photo-592753.jpeg?cs=srgb&dl=pexels-aaditya-arora-592753.jpg&fm=jpg);
+  background-size: cover;
+  background-position: calc(-160px * var(--i));
   display: block;
   transition: 0.5s;
   pointer-events: none;
