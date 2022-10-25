@@ -33,6 +33,8 @@ body {
   display: block;
   transition: 0.5s;
   pointer-events: none;
+  border-top: 5px solid #fff;
+  border-bottom: 5px solid #fff;
 }
 
 .box:hover span:nth-child(odd) {
@@ -43,4 +45,12 @@ body {
 .box:hover span:nth-child(even) {
   transform: skewY(-25deg);
   box-shadow: inset 20px 0 50px rgba(0, 0, 0, 0.5);
+}
+
+.box span:first-child {
+  border-left: 5px solid #fff;
+}
+
+.box span:last-child {
+  border-right: 5px solid #fff;
 }
